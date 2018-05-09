@@ -1,0 +1,501 @@
+/******************************** BASIC *******************/
+#site {
+  line-height: 1.125em;
+  font-size: 1em;
+}
+
+
+div {
+  display: block;
+}
+
+#body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 86vw;
+  margin-top: 6vh;
+
+  min-width: 320px;
+  letter-spacing: 0.025em;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  height: 100%;
+  z-index: 10;
+}
+
+.flex {
+  width: 100%;
+  display: block;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.70em;
+  color: #363838;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+
+
+/******************************** SPACING *******************/
+
+.margin0 {
+  margin: 0;
+}
+
+.pad0 {
+  padding: 0;
+}
+
+.space-after-1-2 {
+  margin-bottom: .65rem;
+}
+
+.space-after-small {
+  margin-bottom: .14rem;
+}
+
+.space-after {
+  margin-bottom: 1.3rem;
+}
+
+.space-after2x {
+  margin-bottom: 2.6rem;
+}
+
+.space-after3x {
+  margin-bottom: 3.9rem;
+}
+
+.space-after6x {
+  margin-bottom: 7.8rem;
+}
+
+.space-after9x {
+  margin-bottom: 11.7rem;
+}
+
+.pad-l-1-2 {
+  padding-left: 0.65rem;
+}
+
+.pad-l {
+  padding-left: 1.3rem;
+}
+
+.pad-l2x {
+  padding-left: 2.6rem;
+}
+
+.pad-r-1-2 {
+  padding-right: 0.65rem;
+}
+
+.pad-r {
+  padding-right: 1.3rem;
+}
+
+.pad-r2x {
+  padding-right: 2.6rem;
+}
+
+.space-top {
+  margin-top: 3rem;
+}
+
+
+
+
+/******************************** NAVIGATION *******************/
+#top-nav h1, #top-nav h2 {
+  font-size: 1em;
+  color: #2c2d2d;
+}
+
+#top-nav h1 a {
+    display: block;
+    width: 120px;
+    height: 24px;
+}
+
+#top-nav h1 a:hover {
+  text-decoration: none;
+  color: #2c2d2d;
+}
+
+#top-nav h2 a {
+    margin-right: 2.6rem;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: #2c2d2d;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #2c2d2d;
+}
+
+.previous, .previous a {
+   cursor: w-resize;
+   float: left;
+   transition: all 0.2s ease-out;
+}
+
+.next , .next a{
+  cursor: e-resize;
+  float: right;
+  transition: all 0.2s ease-out;
+}
+
+.centre {
+  text-align: center;
+}
+
+.navigation-main {
+  text-align: center;
+
+  font-family: 'Rubik', sans-serif;
+}
+
+.navigation-main ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navigation-main li a {
+    text-decoration: none;
+  }
+
+.navigation-main li {
+  display: inline-block;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: .70em;
+  height: 1.2em;
+}
+
+
+/******************************** FOLIO *******************/
+#site {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  font-size: 1.04em;
+}
+
+p {
+  margin: 0;
+}
+
+#body-folio {
+  margin: 0;
+}
+
+.flex-folio {
+  width: 98%;
+  display: block;
+}
+
+
+#header-folio {
+  position: fixed;
+  top: -60px;
+  width: 100vw;
+  padding-top: 5rem;
+  padding-bottom: 0px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  z-index: 5000;
+
+}
+
+.left {
+  float: left;
+  padding-left: 3.9rem;
+  padding-right: 3.9rem;
+  margin-bottom: 0.65rem;
+}
+
+.right {
+  float: right;
+  padding-left: 3.9rem;
+  padding-right: 3.9rem;
+  margin-bottom: 0.65rem;
+}
+
+#header-folio h1 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#work-folio, #work-about {
+  padding-top: 5.2rem;
+}
+
+.marginb {
+  margin-bottom: 1.3rem;
+}
+
+#work-about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 86vw;
+  margin-top: 6vh;
+}
+
+
+/******************************** BLOG *******************/
+#body-blog {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 950px;
+  margin-top: 35px;
+
+  min-width: 320px;
+  letter-spacing: 0.025em;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  height: 100%;
+}
+
+.time {
+  font-size: .65rem;
+  text-align: center;
+  letter-spacing: .05rem;
+}
+
+.navb-right {
+  float: right;
+}
+
+.navb-left {
+  float: left;
+}
+
+.photos {
+  padding-top: 2.6rem;
+}
+
+.click {
+  text-decoration: underline;
+}
+
+.border {
+  border-top: dotted 1px rgba(29,29,29,.3);
+}
+
+
+.blog-desc {
+  float: none;
+  font-style: italic;
+  font-size: .8em;
+}
+
+.blog-desc li {
+    text-decoration: none;
+}
+
+#body-blog h1 {
+  text-align: center;
+  font-size: 1.9em;
+  font-family: 'Fugaz One', cursive;
+}
+
+
+.push-r {
+  margin-right: 2rem;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+ol {
+  padding-left: 1rem;
+  margin-top: 0;
+}
+
+.blog h2 {
+  margin-bottom: 0;
+  margin-top: 2.6rem;
+  font-size: .95rem;
+  color: #2c2d2d;
+  font-weight: bold;
+}
+
+
+.post-header {
+  display: inline;
+  padding-top: 3rem;
+}
+
+.tags {
+  font-size: 1.1em;
+  margin-left: 0;
+  margin-right: auto;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #333132;
+}
+
+.entry-title {
+  text-transform: uppercase;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: .10rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+#menu h1 {
+  line-height: 1.4em;
+}
+
+/*.sentence {
+  box-shadow: inset 0 -8px 0 #ded0d2 !important;
+} */
+
+
+.sentence a {
+  padding-bottom: .025em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(29,29,29,.3);
+}
+
+.sentence a:hover {
+  text-decoration: none !important;
+}
+
+
+.top, .top a {
+  text-align: center;
+  margin-bottom: 2.6rem;
+  cursor: n-resize;
+}
+
+.menu-bar {
+  margin: 5rem auto 0;
+}
+
+.blog-bottom {
+  padding-top: 1.3rem;
+  margin-bottom: 2.6rem;
+  text-align: center;
+}
+
+.nav-blog-bottom {
+  padding-top: 3.9rem;
+  margin-bottom: 2.6rem;
+  text-align: center;
+}
+
+.outfit {
+    font-style: normal;
+    font-size: .55em;
+    letter-spacing: .25em;
+    line-height: 2.2em;
+    text-transform: uppercase;
+}
+
+.outfit a {
+color: #5b5b5b;
+}
+
+#site-soon, #site-soon h1, #site-soon p {
+  font-size: 1em;
+  background-color: #ded0d2;
+}
+
+.site-body {
+  margin: 5%;
+}
+
+.thoughts {
+  border: 1px solid #363838;
+  padding: 2rem;
+}
+
+.thoughts-img {
+ border: 1px solid #363838;
+}
+
+
+/******************************** RESPONSIVE *******************/
+
+@media only screen and (min-width: 20em) {
+
+
+.hover-img {
+  display: none;
+  float: right;
+  width: 46vw;
+}
+
+.hover-text:hover ~ .hover-img {
+  display: none;
+}
+
+#body-blog {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.right {
+  float: left;
+  padding-right: 3.9rem;
+  margin-bottom: 0.65rem;
+}
+
+}
+
+
+@media only screen and (min-width: 50em) {
+
+#work {
+    height: 88vh;
+    width: 100%;
+    max-width: 850vw;
+    max-height: 64vw;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.hover-img {
+  display: none;
+  float: right;
+  width: 46vw;
+}
+
+.hover-text:hover ~ .hover-img {
+  display: block;
+}
+
+#body-blog {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.right {
+  float: right;
+  padding-left: 3.9rem;
+  padding-right: 3.9rem;
+  margin-bottom: 0.65rem;
+}
+
+}

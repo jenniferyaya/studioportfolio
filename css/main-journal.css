@@ -1,0 +1,472 @@
+/******************************** BASIC *******************/
+#site {
+  line-height: 1.125em;
+  font-size: 1em;
+}
+
+
+div {
+  display: block;
+}
+
+#body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 86vw;
+  margin-top: 6vh;
+
+  min-width: 320px;
+  letter-spacing: 0.025em;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  height: 100%;
+  z-index: 10;
+}
+
+.flex {
+  width: 96%;
+  display: block;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.70em;
+}
+
+.sans-light {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 300;
+  color: #0d2624;
+}
+
+.sans-reg {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 400;
+  color: #0d2624;
+}
+
+
+/******************************** SPACING *******************/
+
+.margin0 {
+  margin: 0;
+}
+
+.pad0 {
+  padding: 0;
+}
+
+.space-after-1-2 {
+  margin-bottom: .65rem;
+}
+
+.space-after-small {
+  margin-bottom: .14rem;
+}
+
+.space-after {
+  margin-bottom: 1.3rem;
+}
+
+.space-after2x {
+  margin-bottom: 2.6rem;
+}
+
+.space-after3x {
+  margin-bottom: 3.9rem;
+}
+
+.space-after6x {
+  margin-bottom: 7.8rem;
+}
+
+.space-after9x {
+  margin-bottom: 11.7rem;
+}
+.pad-l-sml {
+  padding-left: .14rem;;
+}
+
+.pad-l-1-2 {
+  padding-left: 0.65rem;
+}
+
+.pad-l {
+  padding-left: 1.3rem;
+}
+
+.pad-l2x {
+  padding-left: 2.6rem;
+}
+
+.pad-l5x {
+  padding-left: 6.5rem;
+}
+
+.pad-r-1-2 {
+  padding-right: 0.65rem;
+}
+
+.pad-r {
+  padding-right: 1.3rem;
+}
+
+.pad-r2x {
+  padding-right: 2.6rem;
+}
+
+.pad-r5x {
+  padding-right: 6.5rem;
+}
+
+.space-top {
+  margin-top: 3rem;
+}
+
+
+
+
+/******************************** NAVIGATION *******************/
+
+a, a:active {
+  text-decoration: none;
+  color: #1c4f4a;
+}
+
+a:hover {
+  outline: none;
+}
+
+.previous, .previous a {
+   cursor: w-resize;
+   float: left;
+   transition: all 0.2s ease-out;
+}
+
+.next , .next a{
+  cursor: e-resize;
+  float: right;
+  transition: all 0.2s ease-out;
+}
+
+.centre {
+  text-align: center;
+}
+
+
+
+/******************************** BLOG *******************/
+#body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+  margin-top: 35px;
+
+  min-width: 320px;
+  letter-spacing: 0.025em;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  height: 100%;
+  background-color: #f5f5f5;
+  color: #0d2624;
+}
+
+#body-places {
+  padding-top: 8.5rem;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  margin-top: 35px;
+
+  height: 100%;
+  background-color: #f5f5f5;
+  color: #0d2624;
+}
+
+.border-top {
+  padding-top: 1.3em;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(13,37,35);
+}
+
+
+
+#body-places a:hover {
+  color: #1c4f4a;
+}
+
+.menu-bar {
+  text-align: center;
+}
+
+h1 img {
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+}
+
+.milli {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  opacity: 0;
+  text-transform: uppercase;
+}
+
+.page-content {
+  padding: 8.5rem 0 0;
+  position: relative;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+.menu-bar {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.menu-bar:hover {
+  background-color: #f5f5f5;
+}
+
+.menu-bar:hover .milli {
+  opacity: 1;
+}
+
+.cover-image96 {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: #0d2624 solid 1px;
+}
+
+
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: #0d2624 solid 1px;
+}
+
+.pad-img {
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+}
+
+.cover-image96:hover {
+  opacity: 0.90;
+}
+
+.cover-image:hover {
+  opacity: 0.90;
+}
+
+.cover-image-inside {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: #0d2624 solid 1px;
+}
+
+.diary-img {
+  width: 96%;
+  height: auto;
+  display: block;
+  border: #0d2624 solid 1px;
+}
+
+
+.time {
+  font-size: .80rem;
+}
+
+h2 {
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 1.3rem;
+  text-transform: uppercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+h1 img {
+  width: 250px;
+  height: auto;
+}
+
+.category {
+  margin: 0;
+}
+
+.op60 {
+  opacity: .6;
+}
+
+/*.sentence {
+  box-shadow: inset 0 -8px 0 #ded0d2 !important;
+} */
+
+
+.sentence a {
+  padding-bottom: .025em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(13,37,35,.3);
+}
+
+.sentence a:hover {
+  text-decoration: none !important;
+}
+
+.blog-bottom {
+  padding-top: 1.3rem;
+  margin-bottom: 2.6rem;
+  text-align: center;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.nav-blog-bottom {
+  padding-top: 3.9rem;
+  margin-bottom: 2.6rem;
+    padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+
+.thoughts {
+  border: 1px solid #0d2624;
+  padding: 2rem;
+}
+
+.thoughts-img {
+ border: 1px solid #0d2624;
+}
+
+.entry-title {
+  text-transform: uppercase;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: .10rem;
+}
+
+.lrg {
+  font-size: 1.3rem;
+}
+
+
+.container {
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-evenly;
+  display: inline-block;
+  align-items: baseline;
+
+}
+
+h1 a {
+  margin: 0;
+}
+
+nav a {
+  text-align: center;
+}
+
+.height a {
+  height: auto;
+}
+
+
+/******************************** RESPONSIVE *******************/
+
+@media only screen and (min-width: 20em) {
+
+
+.hover-img {
+  display: none;
+  float: right;
+  width: 46vw;
+}
+
+.hover-text:hover ~ .hover-img {
+  display: none;
+}
+
+#body-blog {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.right {
+  float: left;
+  padding-right: 3.9rem;
+  margin-bottom: 0.65rem;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 50em) {
+
+#work {
+    height: 88vh;
+    width: 100%;
+    max-width: 850vw;
+    max-height: 64vw;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.hover-img {
+  display: none;
+  float: right;
+  width: 46vw;
+}
+
+.hover-text:hover ~ .hover-img {
+  display: block;
+}
+
+#body-blog {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.right {
+  float: right;
+  padding-left: 3.9rem;
+  padding-right: 3.9rem;
+  margin-bottom: 0.65rem;
+}
+
+
+}
